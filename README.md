@@ -1,2 +1,3 @@
 # Glowing-Scrollview
-Responsive
+This Scrollview is Glowing.
+Better then Dark Color
