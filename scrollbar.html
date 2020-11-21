@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Scroll Bar</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<div id="progressbar"></div>
+<div id="scrollpath"></div>
+<section>
+	<h1>Responsive Glowing Scroll :)</h1>
+	<br>
+	<p>List of Methods - Money Laundering:
+Money laundering can take several forms, although most methodology can be categorized into one of a few types. These include "bank methods, smurfing also known as structuring, currency exchanges, and double-invoicing".
+
+Structuring: Often known as smurfing, is a method of placement whereby cash is broken into smaller deposits of money, used to defeat suspicion of money laundering and to avoid anti-money laundering reporting requirements. A sub-component of this is to use smaller amounts of cash to purchase bearer instruments, such as money orders, and then ultimately deposit those, again in small amounts.
+Bulk cash smuggling: This involves physically smuggling cash to another jurisdiction and depositing it in a financial institution, such as an offshore bank, that offers greater bank secrecy or less rigorous money laundering enforcement.
+Cash-intensive businesses: In this method, a business typically expected to receive a large proportion of its revenue as cash uses its accounts to deposit criminally derived cash. Such enterprises often operate openly and in doing so generate cash revenue from incidental legitimate business in addition to the illicit cash. In such cases the business will usually claim all cash received as legitimate earnings. Service businesses are best suited to this method, as such enterprises have little or no variable costs and/or a large ratio between revenue and variable costs, which makes it difficult to detect discrepancies between revenues and costs. Examples are parking structures, strip clubs, tanning salons, car washes, arcades, bars, restaurants, and casinos.
+Trade-based laundering: This method is one of the newest and most complex forms of money laundering. This involves under- or over-valuing invoices to disguise the movement of money. For example, the art market has been accused of being an ideal vehicle for money laundering due to several unique aspects of art such as the subjective value of art works as well as the secrecy of auction houses about the identity of the buyer and seller.
+Shell companies and trusts: Trusts and shell companies disguise the true owners of money. Trusts and corporate vehicles, depending on the jurisdiction, need not disclose their true owner. Sometimes referred to by the slang term rathole, though that term usually refers to a person acting as the fictitious owner rather than the business entity.
+Round-tripping: Here, money is deposited in a controlled foreign corporation offshore, preferably in a tax haven where minimal records are kept, and then shipped back as a foreign direct investment, exempt from taxation. A variant on this is to transfer money to a law firm or similar organization as funds on account of fees, then to cancel the retainer and, when the money is remitted, represent the sums received from the lawyers as a legacy under a will or proceeds of litigation.
+Bank capture: In this case, money launderers or criminals buy a controlling interest in a bank, preferably in a jurisdiction with weak money laundering controls, and then move money through the bank without scrutiny.
+Casinos: In this method, an individual walks into a casino and buys chips with illicit cash. The individual will then play for a relatively short time. When the person cashes in the chips, they will expect to take payment in a check, or at least get a receipt so they can claim the proceeds as gambling winnings.
+List of Methods - Money Laundering:
+Money laundering can take several forms, although most methodology can be categorized into one of a few types. These include "bank methods, smurfing also known as structuring, currency exchanges, and double-invoicing".
+
+Structuring: Often known as smurfing, is a method of placement whereby cash is broken into smaller deposits of money, used to defeat suspicion of money laundering and to avoid anti-money laundering reporting requirements. A sub-component of this is to use smaller amounts of cash to purchase bearer instruments, such as money orders, and then ultimately deposit those, again in small amounts.
+Bulk cash smuggling: This involves physically smuggling cash to another jurisdiction and depositing it in a financial institution, such as an offshore bank, that offers greater bank secrecy or less rigorous money laundering enforcement.
+Cash-intensive businesses: In this method, a business typically expected to receive a large proportion of its revenue as cash uses its accounts to deposit criminally derived cash. Such enterprises often operate openly and in doing so generate cash revenue from incidental legitimate business in addition to the illicit cash. In such cases the business will usually claim all cash received as legitimate earnings. Service businesses are best suited to this method, as such enterprises have little or no variable costs and/or a large ratio between revenue and variable costs, which makes it difficult to detect discrepancies between revenues and costs. Examples are parking structures, strip clubs, tanning salons, car washes, arcades, bars, restaurants, and casinos.
+Trade-based laundering: This method is one of the newest and most complex forms of money laundering. This involves under- or over-valuing invoices to disguise the movement of money. For example, the art market has been accused of being an ideal vehicle for money laundering due to several unique aspects of art such as the subjective value of art works as well as the secrecy of auction houses about the identity of the buyer and seller.
+Shell companies and trusts: Trusts and shell companies disguise the true owners of money. Trusts and corporate vehicles, depending on the jurisdiction, need not disclose their true owner. Sometimes referred to by the slang term rathole, though that term usually refers to a person acting as the fictitious owner rather than the business entity.
+Round-tripping: Here, money is deposited in a controlled foreign corporation offshore, preferably in a tax haven where minimal records are kept, and then shipped back as a foreign direct investment, exempt from taxation. A variant on this is to transfer money to a law firm or similar organization as funds on account of fees, then to cancel the retainer and, when the money is remitted, represent the sums received from the lawyers as a legacy under a will or proceeds of litigation.
+Bank capture: In this case, money launderers or criminals buy a controlling interest in a bank, preferably in a jurisdiction with weak money laundering controls, and then move money through the bank without scrutiny.
+Casinos: In this method, an individual walks into a casino and buys chips with illicit cash. The individual will then play for a relatively short time. When the person cashes in the chips, they will expect to take payment in a check, or at least get a receipt so they can claim the proceeds as gambling winnings.
+
+</p>
+</section>
+<script type="text/javascript">
+	let progress=document.getElementById('progressbar');
+	let totalHeight=document.body.scrollHeight - window.innerHeight;
+	window.onscroll = function(){
+		let progressHeight=(window.pageYOffset / totalHeight) * 100;
+		progress.style.height=progressHeight + "%";
+	}
+</script>
+</body>
+</html>
